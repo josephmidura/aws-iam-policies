@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "lakeformation:GetDataAccess",
+                "glue:GetTable",
+                "glue:GetTables",
+                "glue:SearchTables",
+                "glue:GetDatabase",
+                "glue:GetDatabases",
+                "glue:GetPartitions",
+                "lakeformation:GetResourceLFTags",
+                "lakeformation:ListLFTags",
+                "lakeformation:GetLFTag",
+                "lakeformation:SearchTablesByLFTags",
+                "lakeformation:SearchDatabasesByLFTags",
+                "lakeformation:GetWorkUnits",
+                "lakeformation:StartQueryPlanning",
+                "lakeformation:GetWorkUnitResults",
+                "lakeformation:GetQueryState",
+                "lakeformation:GetQueryStatistics"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+

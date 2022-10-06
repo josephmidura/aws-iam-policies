@@ -37,7 +37,7 @@
                 "athena:DeletePreparedStatement"
             ],
             "Resource": [
-                "arn:aws:athena:us-east-2:312992671620:workgroup/primary"
+                "arn:RESOURCE ARN"
             ]
         }
     ]
